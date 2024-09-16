@@ -1,0 +1,24 @@
+{
+  "name": "Helper for YouTube Music",
+  "manifest_version": 2,
+  "version": 1.0,
+
+  "description": "Adds utilities to YouTube Music.",
+  "homepage_url": "https://github.com/felda/helper-for-youtube-music",
+  "icon": {
+    "32": "icons/music-man-icon-32.png",
+    "48": "icons/music-man-icon-48.png",
+    "96": "icons/music-man-icon-96.png"
+  },
+
+  "permissions": [""],
+
+  "browser_action": {
+    "default_icon": "icons/music-man-icon-32.png",
+    "default_title": "Helper for YouTube Music",
+    "default_popup": "popup/popup.html"
+  },
+
+  "web_accessible_resources": [
+  ]
+}
